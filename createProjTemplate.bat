@@ -26,7 +26,7 @@ set envpath=C:\PROJECTS\%pName%\env\%pName%
 call serverdefinition.bat %root% %envpath% %pName%
 
 REM CREATE OTHER PROJECT FILES
-REM echo "#Requirement File">C:\PROJECTS\%pName%\requirements.txt
+echo "#Requirement File">C:\PROJECTS\%pName%\requirements.txt
 echo "#MainApp_v0">C:\PROJECTS\%pName%\main.py
 echo "#DockerFile_v0">C:\PROJECTS\%pName%\Dockerfile
 echo "#Readme_v0">C:\PROJECTS\%pName%\README.md
