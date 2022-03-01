@@ -28,7 +28,9 @@ This batch file create the following folder structure for a typical Data Science
 1.  Edit the `envsettings.yml` to add the required python packages for your project. Add `Tensorflow`, `Keras` or `Pytorch` depending on the framework of your preference.
 
 2. 	Open command promt and write
-	- `createProjTemplate.bat anaconda_path project_name`
-		- `anaconda_path`  |  Typically has this form: `C:\Users\*user*\anaconda3`
-		- `project_name`   |  Name of your preference.
+	```
+	createProjTemplate.bat anaconda_path project_name
+	```
+	- `anaconda_path`  |  Typically has this form: `C:\Users\*user*\anaconda3`
+	- `project_name`   |  Name of your preference.
 
