@@ -1,21 +1,23 @@
 # Create Data Science Project Structure
 This batch file create the following folder structure for a typical Data Science project.
->	|Project Folder
->		|--> data
->		|--> env
->           		|--> env_folder (It has the project name)
->		|--> imgs
->		|--> models
->		|--> notebooks
->           		|--> project_name.ipynb
->		|--> .gitignore
->		|--> Dockerfile (In case you wnat to containerize you app)
->		|--> lauchServer.bat (Open your jupyter environment. You only have to double-click and experiment)
->		|--> main.py (Main Python script)
 
+---------------------------------------
+- Project Folder
+	- data
+	- env
+		- env_folder (It has the project name)
+	- imgs
+	- models
+	- notebooks
+		- project_name.ipynb
+	- .gitignore
+	- Dockerfile (In case you wnat to containerize you app)
+	- lauchServer.bat (Open your jupyter environment. You only have to double-click and experiment)
+	- main.py (Main Python script)
+---------------------------------------
 
-- [Anaconda](https://www.anaconda.com/products/individual) must be installed.
-- If you want to use your GPU with Tensorflow, locally, make sure you check these steps:
+1. [Anaconda](https://www.anaconda.com/products/individual) must be installed.
+2. If you want to use your GPU with Tensorflow, locally, make sure you check these steps:
 	**System Preparation - NVIDIA Driver Update and checking your PATH variable:**
 	  - [x] Check your NVIDIA Driver
 	  - [x] Check your PATH environment variable. See this [guide](https://www.tensorflow.org/install/gpu#pip_package).
