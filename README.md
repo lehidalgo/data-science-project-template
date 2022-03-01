@@ -31,6 +31,9 @@ This batch file create the following folder structure for a typical Data Science
 	```
 	createProjTemplate.bat anaconda_path project_name
 	```
-	- `anaconda_path`  |  Typically has this form: `C:\Users\*user*\anaconda3`
-	- `project_name`   |  Name of your preference.
+`anaconda_path` 
+> Typically has this form: `C:\Users\*user*\anaconda3`
+
+`project_name`
+> Name of your preference.
 
