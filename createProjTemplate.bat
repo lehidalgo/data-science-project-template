@@ -39,9 +39,25 @@ python -m ipykernel install --user --name=%pName%
 
 cd C:\PROJECTS\%pName%
 
-jupyter-notebook
-
+REM ###### SETTING UP GITHUB AND UPLOADING THE FILE TO THE PROJECT REPO ######
+REM Initialize the git
 git init
+
+REM Add all the files and folder
+git add .
+
+REM Commit the files
+git commit -m "First commit"
+
+REM Set the remote repo URL
+git remote add origin https://github.com/*github_user_id*/*repo_name*.git
+git remote -v
+
+REM Push to changes from local repo to github
+git push origin master
+
+REM If you want to work with web Jupyter Notebook environmen, uncomment line below.
+REM jupyter-notebook
 
 pause
 
