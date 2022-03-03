@@ -25,7 +25,7 @@ This batch file create the following folder structure for a typical Data Science
 
 ## How to use it
 
-1.  Edit the `envsettings.yml` to add the required python packages for your project. Add `Tensorflow`, `Keras` or `Pytorch` depending on the framework of your preference.
+1.  Create a `yml` file to add the required python packages for your project. Add `Tensorflow`, `Keras` or `Pytorch` depending on the framework of your preference.
 
 2. 	Open command promt and write
 	```
