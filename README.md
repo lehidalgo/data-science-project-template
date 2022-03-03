@@ -30,6 +30,7 @@ This batch file create the following folder structure for a typical Data Science
 2. 	Open command promt and write
 	```
 	createProjTemplate.bat anaconda_path github_url yml_file
+	Ex: createProjTemplate.bat C:\Users\****\anaconda3 https://github.com/*username*/*repo_name* envsettings-tensorflow.yml 
 	```
 `anaconda_path` 
 > Typically has this form: `C:\Users\*user*\anaconda3`
