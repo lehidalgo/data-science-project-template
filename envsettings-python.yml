@@ -1,0 +1,14 @@
+name: t1
+channels:
+    - conda-forge
+dependencies:
+    - python=3.9
+    - numpy
+    - matplotlib
+    - jupyter
+    - scikit-learn
+    - scipy
+    - h5py
+    - seaborn
+    - scikit-image
+    - pandas
