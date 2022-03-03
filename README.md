@@ -29,11 +29,14 @@ This batch file create the following folder structure for a typical Data Science
 
 2. 	Open command promt and write
 	```
-	createProjTemplate.bat anaconda_path project_name
+	createProjTemplate.bat anaconda_path github_url yml_file
 	```
 `anaconda_path` 
 > Typically has this form: `C:\Users\*user*\anaconda3`
 
-`project_name`
-> Name of your preference.
+`github_url`
+> Github url of your already created repo.
+
+`yml_file`
+> yml file with the description and requirements of your Anaconda environment.
 
