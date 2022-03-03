@@ -28,16 +28,22 @@ This batch file create the following folder structure for a typical Data Science
 1.  Create a `yml` file to add the required python packages for your project. Add `Tensorflow`, `Keras` or `Pytorch` depending on the framework of your preference.
 
 2. 	Open command promt and write
-	```
-	createProjTemplate.bat anaconda_path github_url yml_file
-	Ex: createProjTemplate.bat C:\Users\****\anaconda3 https://github.com/*username*/*repo_name* envsettings-tensorflow.yml 
-	```
-`anaconda_path` 
+`createProjTemplate.bat anaconda_path github_url yml_file`
+
+
+> **anaconda_path** 
+> 
 > Typically has this form: `C:\Users\*user*\anaconda3`
 
-`github_url`
+> **github_url**
+> 
+> `https://github.com/*username*/*repo_name*`
+> 
 > Github url of your already created repo.
 
-`yml_file`
+> **yml_file**
+>
+>envsettings-tensorflow.yml
+>
 > yml file with the description and requirements of your Anaconda environment.
 
