@@ -5,8 +5,17 @@ REM ###### ANACONDA ROOT ######
 REM ###### THIS PATH MAY BE DIFFERENT IN YOUR SYSTEM ######
 
 set root=%1
-set pName=%2
-set ymlfile=C:\PROJECTS\envsettings.yml         	
+set gitUrl=%2
+set ymlFile=%3     	
+
+REM ### AFTER CONVERT . TO /, EVERY GITHUB SSH ADDRESS WILL HAVE 3 /. SO I USE ONLY TOKEN 3 ### 
+REM ### SPLIT STRING BY DELIMITER / ### 
+FOR /f "tokens=1,2,3,4 delims=/" %%a IN ("%gitUrl%") do (
+	set gitUsername=%%c   
+	set pName=%%d
+)
+
+set ymlfile=C:\PROJECTS\%ymlFile%
 
 REM ###### PROJECT CREATE DIRECTORIES ###### 
 
@@ -50,8 +59,7 @@ REM Commit the files
 git commit -m "First commit"
 
 REM Set the remote repo URL
-git remote add origin https://github.com/*github_user_id*/*repo_name*.git
-git remote -v
+git remote add origin %gitUrl%
 
 REM Push to changes from local repo to github
 git push origin master
