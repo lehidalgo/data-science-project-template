@@ -12,6 +12,6 @@ dependencies:
     - seaborn
     - scikit-image
     - pandas
-    - tensorflow-gpu
+    - torch
     - ipykernel
-    - keras
+ 
